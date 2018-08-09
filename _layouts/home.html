@@ -2,7 +2,7 @@
 layout: default
 ---
 
-
+<div class="w3-container">
 
 {%- if site.posts.size > 0 -%}
     <h4 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h4>
@@ -27,3 +27,4 @@ layout: default
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 {%- endif -%}
+</div>
