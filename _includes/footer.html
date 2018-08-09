@@ -1,8 +1,17 @@
 <div class="w3-row w3-grey">
 <div class="w3-third w3-container ">
-  <h2>w3-third</h2>  
-  <p>The w3-third class uses 33% of the parent container.</p>
-  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+  <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+</ul>
 </div>
 <div class="w3-third w3-container">
   <h2>w3-third</h2>
