@@ -9,6 +9,7 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
+           <div class="w3-panel w3-blue w3-card-4">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h5>
@@ -19,6 +20,7 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+          </div>    
       </li>
       {%- endfor -%}
     </ul>
