@@ -4,7 +4,8 @@ layout: default
 <div class="w3-container">
     
 <h3>{{ page.title | escape }}</h3>    
-  
+  <span>{{ page.author }}-{{ page.date | date_to_xmlschema }}</span>
+
 
     <p>{{ content }}</p>
 </div>
