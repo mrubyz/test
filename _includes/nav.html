@@ -22,7 +22,15 @@
   <a href="#" class="w3-bar-item w3-button">BAND</a>
   <a href="#" class="w3-bar-item w3-button">TOUR</a>
   <a href="#" class="w3-bar-item w3-button">CONTACT</a>
+  <div class="w3-bar-item w3-button" onclick="myAccFunc()">
+  MORE <i class="fa fa-caret-down"></i></div>
+  <div id="demoAcc" class="w3-hide w3-white w3-card-4">
+    <a href="#" class="w3-bar-item w3-button">Link1</a>
+    <a href="#" class="w3-bar-item w3-button">Link2</a>
+  </div>
 </div>
+
+
 
 <script>
 function myFunction() {
@@ -31,6 +39,18 @@ function myFunction() {
         x.className += " w3-show";
     } else { 
         x.className = x.className.replace(" w3-show", "");
+    }
+}
+     
+function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-green";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-green", "");
     }
 }
 </script>
