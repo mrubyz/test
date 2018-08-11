@@ -7,7 +7,7 @@ layout: default
   
 <p>
       <time>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        
         {{ page.date | date_to_long_string }}
       </time>
       {%- if page.author -%}
