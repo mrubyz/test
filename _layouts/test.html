@@ -12,7 +12,13 @@ title: test
     {% endfor %}
   </ul>
     
-    
+  <h1>Pages</h1>
+  <ul class="posts">
+    {% for pagge in site.pages %}
+      <li><a href="{{ pagge.url | relative_url}}">{{ pagge.title }}</a></li>
+    {% endfor %}
+  </ul>
+       
     
     
     
