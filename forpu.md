@@ -1,3 +1,8 @@
+---
+title: Για το κοινό
+---
+
+
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
