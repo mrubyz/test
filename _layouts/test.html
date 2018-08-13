@@ -15,7 +15,7 @@ title: test
   <h1>Pages</h1>
   <ul class="posts">
     {% for pagge in site.pages %}
-      <li><a href="{{ pagge.url | relative_url}}">{{ pagge.title }}</a></li>
+      <li><a href="{{ pagge.url | relative_url}}">{{ pagge.title }}-{{site.time}}</a></li>
     {% endfor %}
   </ul>
        
