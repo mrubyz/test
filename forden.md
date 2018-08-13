@@ -1,3 +1,8 @@
+---
+title: Για τα μέλη
+---
+
+
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
