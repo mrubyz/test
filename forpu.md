@@ -5,8 +5,7 @@
     
     {% include header.html %}
     
-      {{ content }}
-      
+      <div><h1>For Pu</h1></div>
     {% include footer.html %}
       
   </body>
