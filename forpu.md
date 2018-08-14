@@ -9,26 +9,26 @@ title: Για το κοινό
 <h2>Accordions</h2>
 <p>An accordion is used to show (and hide) HTML content:</p>
   
-<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Open Section 1</button>
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-blue w3-round-large w3-left-align">Open Section 1</button>
 <div id="Demo1" class="w3-container w3-hide">
   <h4>Section 1</h4>
   <p>Some text..</p>
 </div>
 
-<button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-black w3-left-align">Open Section 2</button>
+<button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-blue w3-round-large w3-left-align">Open Section 2</button>
 <div id="Demo2" class="w3-container w3-hide">
   <h4>Section 2</h4>
   <p>Some text..</p><p>Some text..</p>
 </div>
 
 
-<button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-black w3-left-align">Open Section 3</button>
+<button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-blue w3-round-large w3-left-align">Open Section 3</button>
 <div id="Demo3" class="w3-container w3-hide">
   <h4>Section 3</h4>
   <p>Some text..</p><p>Some text..</p><p>Some text..</p><p>Some text..</p>
 </div>
 
-<button onclick="myFunction('Demo4')" class="w3-btn w3-block w3-black w3-left-align">Open Section 4</button>
+<button onclick="myFunction('Demo4')" class="w3-btn w3-block w3-blue w3-round-large w3-left-align">Open Section 4</button>
 <div id="Demo4" class="w3-container w3-hide">
   <h4>Section 4</h4>
   <p>Some text..</p><p>Some text..</p><p>Some text..</p><p>Some text..</p>
