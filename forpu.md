@@ -15,6 +15,15 @@ title: Για το κοινό
   <p>Some text..</p>
 </div>
 
+<h2>Accordions2</h2>
+<p>An accordion is used to show (and hide) HTML content:</p>
+  
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Open Section 1</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>Section 1</h4>
+  <p>Some text..</p>
+</div>
+
 </div>
 <script>
 function myFunction(id) {
