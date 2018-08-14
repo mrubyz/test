@@ -1,5 +1,8 @@
 <div class="w3-indigo w3-card">
      <div class="w3-bar w3-indigo w3-card w3-large navmaxwidth">
+          {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+          
     <a  class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
      
           {%- for path in page_paths -%}
