@@ -4,7 +4,7 @@ title: Για τα μέλη
 ---
 
 
-<div>
+<div class="w3-container w3-light-grey">
 
 
 <h1>Posts and tags</h1>
