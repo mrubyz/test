@@ -4,7 +4,7 @@ title: Για τα μέλη
 ---
 
 
-
+<div>
 
 
 <h1>Posts and tags</h1>
@@ -24,3 +24,4 @@ title: Για τα μέλη
 {% endfor %}
 </ul>
 {% endfor %}
+</div>
