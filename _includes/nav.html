@@ -1,7 +1,7 @@
 <div class="w3-indigo w3-card">
      <div class="w3-bar w3-indigo w3-card w3-large navmaxwidth">
     <a  class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-     <div>
+     
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
@@ -11,7 +11,7 @@
         </div>
       </nav>
     {%- endif -%}
-  </div>
+  
           
           
          
@@ -21,7 +21,7 @@
 </div>
 
 <div id="demo" class="w3-bar-block w3-light-blue w3-card w3-hide w3-hide-large w3-hide-medium">
- <div>
+ 
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
@@ -31,7 +31,7 @@
         </div>
       </nav>
     {%- endif -%}
-  </div>
+  
      
      
      
