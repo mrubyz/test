@@ -16,7 +16,7 @@ title: test
   <ul class="posts">
     {% for pagge in site.pages %}
       {%- if pagge.title -%}
-      <li><a href="{{ pagge.url | relative_url}}">{{ pagge.title }}-{{site.time}}</a></li>
+      <li><a href="{{ pagge.url | relative_url}}">{{ pagge.title }}</a></li>
       {%- endif -%}
     {% endfor %}
   </ul>
