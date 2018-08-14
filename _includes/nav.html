@@ -19,10 +19,16 @@
 </div>
  
  <div id="demo" class="w3-bar-block w3-light-blue w3-card w3-hide w3-hide-large w3-hide-medium">
-   <a href="#" class="w3-bar-item w3-button">HOME</a>
-  <a href="#" class="w3-bar-item w3-button">BAND</a>
-  <a href="#" class="w3-bar-item w3-button">TOUR</a>
-  <a href="#" class="w3-bar-item w3-button">CONTACT</a>
+    
+    {% for pagge in site.pages %}
+      {%- if pagge.title -%}
+      <a href="{{ pagge.url | relative_url}}" class="w3-bar-item w3-button">{{ pagge.title }}</a>
+      {%- endif -%}
+    {% endfor %}
+
+  
+  
+  
   <div class="w3-bar-item w3-button" onclick="myAccFunc()">
   MORE <i class="fa fa-caret-down"></i></div>
   <div id="demoAcc" class="w3-hide w3-white w3-card-4">
